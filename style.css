@@ -1,0 +1,135 @@
+body {
+    background-image: linear-gradient(to bottom right,#33E0E0, #2BED7F);
+    
+}
+
+.topBoard {
+    border: 2px solid #2B87ED;
+    border-radius: 10px;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.topBoard h1 {
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: auto;
+}
+
+.topBoard h2{
+    margin-top: 0px;
+}
+
+.apresention{
+    text-align: center;
+    background-color: #2DF7BE;
+    height: 250px;
+
+}
+
+#myPhoto {
+    float: left;
+    border-radius: 10px;
+}
+
+.project {
+    background-color: #2DF7BE;
+    border-radius: 10px;
+    display: flexbox;
+    flex-direction: row;
+    flex-basis: auto;
+    width: 300px;
+    height: auto;
+}
+
+.Projetos {
+    display: block;
+}
+
+footer {
+    text-align:center;
+}
+
+#projectnav{
+    text-align: center;
+    display: inline-flex;
+}
+
+.social_midia{
+    display: inline-flex;
+}
+
+.midiaSocial{
+    display: inline-flex;
+}
+
+@media (max-width: 600px) {
+    .topBoard {
+        border: 2px solid #2B87ED;
+        border-radius: 10px;
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .topBoard h1 {
+        font-size: 50px;
+        margin-bottom: 0px;
+        margin-top: auto;
+    }
+    
+    .topBoard h2{
+        margin-top: 0px;
+    }
+    
+    .apresention{
+        text-align: center;
+        background-color: #2DF7BE;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #myPhoto {
+        align-items: flex-start;
+    }
+    
+    .project {
+        background-color: #2DF7BE;
+        border-radius: 10px;
+        display: flexbox;
+        flex-direction: row;
+        flex-basis: auto;
+        width: 300px;
+        height: auto;
+    }
+    
+    .Projetos {
+        display: block;
+    }
+    
+    footer {
+        text-align:center;
+    }
+    
+    #projectnav{
+        text-align: center;
+        display: inline-flex;
+    }
+    
+    .social_midia{
+        display: inline-flex;
+    }
+    
+    .midiaSocial{
+        text-decoration: none;
+    }
+    
+    /* ,Divi {
+        flex-direction: row;
+        display: flexbox;
+    } */
+}
