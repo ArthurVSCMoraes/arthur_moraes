@@ -1,8 +1,8 @@
 body {
-background-color: #95D7F9;
-color: #38444A;
-margin: 0px;
-font-family: 'Montserrat', sans-serif;
+    background-color: #95D7F9;
+    color: #38444A;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .topBoard {
@@ -33,6 +33,7 @@ font-family: 'Montserrat', sans-serif;
 #myPhoto {
     float: left;
     border-radius: 10px;
+    width: 250px;
 }
 
 #social_midia {
@@ -68,7 +69,9 @@ font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
 }
-.project h4,p {
+
+.project h4,
+p {
     /* display: flex; */
 
     align-items: center;
@@ -86,13 +89,13 @@ font-family: 'Montserrat', sans-serif;
     margin: 5px;
 }
 
-.linkProjeto{
+.linkProjeto {
     border-radius: 5px;
     padding: 1px 1px;
     color: #ABCEE0;
     font-size: 15px;
     text-decoration: none;
-    
+
 }
 
 #projectnav {
@@ -103,78 +106,123 @@ font-family: 'Montserrat', sans-serif;
 footer {
     display: block;
     text-align: center;
-    background-color: #84A0AD ;
+    background-color: #84A0AD;
     padding: 1px 0px 2px 1px;
 }
 
 
-/* @media (max-width: 600px) {
+@media (max-width: 600px) {
     .topBoard {
-        border: 2px solid #2B87ED;
-        border-radius: 10px;
         display: flex;
         justify-items: center;
         flex-direction: column;
         text-align: center;
     }
-    
+
     .topBoard h1 {
-        font-size: 50px;
+        font-size: 20px;
         margin-bottom: 0px;
         margin-top: auto;
     }
-    
-    .topBoard h2{
+
+    .topBoard h2 {
         margin-top: 0px;
+        font-size: 10px;
     }
-    
-    .apresention{
+
+    .apresention {
         text-align: center;
-        background-color: #2DF7BE;
-        height: 500px;
-        display: flex;
-        flex-direction: column;
+        background-color: #84A0AD;
+        height: 100px;
+        display: fle;
+        font-size: 10px;
     }
-    
+
     #myPhoto {
-        align-items: flex-start;
-    }
-    
-    .project {
-        background-color: #2DF7BE;
+        float: left;
         border-radius: 10px;
-        display: flexbox;
+        width: 100px;
+    }
+
+    #social_midia {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    #artigo h4{
+        max-height: 100px;
+        margin: 2px;
+    }
+
+    .midiaSocial {
+        border: 1px solid #84A0AD;
+        background-color: #ABCEE0;
+        border-radius: 5px;
+        padding: 2px 2px;
+        color: #4A6161;
+        font-size: 7px;
+        place-content: center;
+        text-decoration: none;
+        margin: 1px;
+    }
+
+    .project {
+        background-color: #84A0AD;
+        border-radius: 10px;
         flex-direction: row;
         flex-basis: auto;
         width: 300px;
-        height: auto;
-    }
-    
-    .Projetos {
-        display: block;
-    }
-    
-    footer {
-        text-align:center;
-    }
-    
-    #projectnav{
+        height: 100px;
         text-align: center;
-        display: inline-flex;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        vertical-align: middle;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
     }
-    
-    .social_midia{
-        display: inline-flex;
-    }
-    
-    .midiaSocial{
-        text-decoration: none;
-    }
-    
-    /* ,Divi {
-        flex-direction: row;
-        display: flexbox;
-    } */
-/* } */
 
- 
+    .project h4,
+    p {
+        /* display: flex; */
+
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        /* justify-content: space-between;
+        flex-direction: column; */
+    }
+
+    .Divi {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 5px;
+        align-items: center;
+    }
+
+    .linkProjeto {
+        border-radius: 5px;
+        padding: 1px 1px;
+        color: #ABCEE0;
+        font-size: 15px;
+        text-decoration: none;
+
+    }
+
+    #projectnav {
+        text-align: center;
+    }
+
+
+    footer {
+        display: block;
+        text-align: center;
+        background-color: #84A0AD;
+        padding: 1px 0px 2px 1px;
+    }
+
+}
