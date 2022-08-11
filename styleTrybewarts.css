@@ -34,3 +34,14 @@ main , #evaluation-form {
   display: flex;
   flex-direction: row;
 }
+
+@media (max-width: 600px) {
+  body{
+    background-image: url('/trybewarts-colored.svg');
+  }
+
+  #trybewarts-forms-logo{
+    visibility: hidden;
+    width: 0px;
+  }
+}
